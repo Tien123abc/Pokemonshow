@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+#container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(99, 237, 237);
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border-radius: 10px;
+
+}
